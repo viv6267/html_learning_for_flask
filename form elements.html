@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Form and its elements</title>
+
+
+	<!--
+		1 Input  and label
+		2. Textarea
+		3. Select
+		4. Datalist
+		5. Fieldset and Legend
+
+
+	-->
+
+
+</head>
+<body>
+<form>
+	<label>BIO: </label><br>
+	<textarea style="color:black;"></textarea><br>
+	<label>Year</label>
+	<select>
+		<optgroup style="color:revert-layer;">
+		<option>First Year</option>
+		<option>Second Year</option>
+		</optgroup>
+		<optgroup>
+		<option>Third Year</option>
+		<option>Fourth Year</option>
+		</optgroup>
+	</select>
+
+	<label>SmartPhone</label>
+	<input type="phone" name="Phone">
+	<datalist id="phone">
+		<option value="Redmi Note 9">Redmi Note 9</option>
+		<option value="Redmi Note 10">Redmi Note 10</option>
+		<option value="Redmi Note 11">Redmi Note 11</option>
+		<option value="Redmi Note 12">Redmi Note 12</option>
+	</datalist>
+
+
+	<fieldset>
+		<legend>Education</legend>
+		<label>12th Standard Exam</label><br>
+		<input type="12th Exam" name=""><br>
+		<label>10th Standard Exam</label><br>
+		<input type="10th Exam" name=""><br>
+
+	</fieldset>
+</form>
+</body>
+</html>
